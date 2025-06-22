@@ -1,0 +1,57 @@
+Q1: How do you declare a variable?
+Ans: using let, const, var 
+
+Q2: What is the difference between var, let, and const?
+Ans: var - redeclare, update, global scope
+     let - update but can't be redeclareor in a block scoped
+     const - can't be update, redeclare, or in a block scoped
+
+Q3: Can you change the value of a const variable?
+Ans: No
+
+Q4: What will happen if you use a variable without declaring it?
+Ans: output - Reference error
+
+Q5: What is the default value of an uninitialized variable in JavaScript?
+Ans: output - undefined
+
+Q6: What are the primitive data types in JavaScript?
+Ans: N N B B S S U
+
+Q7: What is the difference between null and undefined?
+Ans: undefined - means a variable has been declared but not assigned a value.
+     null - means a variable is intentionally set to have no value.
+
+Q8: Is JavaScript a statically typed or dynamically typed language?
+Ans: JavaScript is a dynamically typed language,
+     which means you don’t need to declare variable types — the type is determined at runtime.
+
+Q9: What will be the output of typeof null?
+Ans: typeof null // "object"
+     This is a known bug in JavaScript — null is a primitive, but typeof null returns "object" due to a legacy issue.
+
+Q10: What happens when you add a number and a string in JavaScript?
+Ans:JavaScript converts the number to a string and joins them.
+
+Q11: What is type coercion? Give an example.
+Ans: Type coercion in JavaScript is the automatic or implicit conversion of values from one data type to another (like number to string, boolean to number, etc.).
+        let result = "5" - 2;
+        console.log(result); // 3
+
+Q12: How can you manually convert a string to a number in JavaScript?
+Ans: Use parseInt() for integers, parseFloat() for decimals, and Number() or + for general conversions.
+
+
+Q13: What is the result of "5" - 3 in JavaScript?
+Ans: 2
+
+Q14: What is NaN in JavaScript, and how do you check if a value is NaN?
+Ans: NaN stands for "Not-a-Number" — it's a special value that represents the result of an invalid or undefined mathematical operation.
+        let result = "hello" / 2;
+        console.log(result); // NaN
+
+
+Q15: How do you check the type of a variable in JavaScript?
+Ans: let name = "Guru";
+     console.log(typeof name); // "string"
+

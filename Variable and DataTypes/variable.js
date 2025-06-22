@@ -64,3 +64,4 @@ inum
 // can be redeclareable
 var inum = 12;
 inum
+
