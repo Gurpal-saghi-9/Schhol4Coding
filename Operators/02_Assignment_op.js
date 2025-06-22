@@ -1,3 +1,5 @@
+// Assignmet Operator :- These assign values to variables. You’ll use = a lot
+
 // Assign (=) operator
 let a = 10; 
 console.log(a); // Outputs: 10
