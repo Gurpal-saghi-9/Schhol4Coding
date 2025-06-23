@@ -7,3 +7,18 @@ IIf "premium", display "Access to all content"
 If "standard", display "Access to limited content"
 If the user doesn't have a subscription, display "Please subscribe to access content"
 */
+
+let hasSubscription = true; // Change to false to test no subscription
+let subscriptionType = "premium"; // Change to "standard" or others to test
+
+if (hasSubscription) {
+    if (subscriptionType === "premium") {
+        console.log("Access to all content");
+    } else if (subscriptionType === "standard") {
+        console.log("Access to limited content");
+    } else {
+        console.log("Unknown subscription type");
+    }
+} else {
+    console.log("Please subscribe to access content");
+}
