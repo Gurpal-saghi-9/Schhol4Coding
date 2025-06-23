@@ -5,6 +5,7 @@ let b = 3;
 let c = "6";
 
 a += b << 1;
+
 let d = a & b;
 let e = a | b;
 let f = a ^ b;
