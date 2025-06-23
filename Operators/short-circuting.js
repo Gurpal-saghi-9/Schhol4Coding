@@ -37,17 +37,17 @@ console.log(null ?? undefined ?? false ?? null); // Output: false
 
 // Example of using short-circuiting in a function
 function getUserName(user) {
-    // Using logical AND to safely access the name property
-    return user && user.name ? user.name : "Guest";
-}   
+  // Using logical AND to safely access the name property
+  return user && user.name ? user.name : "Guest";
+}
 console.log(getUserName({ name: "Gurpal Singh" })); // Output: "Gurpal Singh"
 console.log(getUserName()); // Output: "Guest"
 console.log(getUserName(null)); // Output: "Guest"
 
 // Example of using short-circuiting to provide default values
 function getConfigValue(config, key) {
-    // Using logical OR to provide a default value if the key is not defined
-    return config[key] || "Default Value";
+  // Using logical OR to provide a default value if the key is not defined
+  return config[key] || "Default Value";
 }
 console.log(getConfigValue({ theme: "dark" }, "theme")); // Output: "dark"
 console.log(getConfigValue({}, "theme")); // Output: "Default Value"
