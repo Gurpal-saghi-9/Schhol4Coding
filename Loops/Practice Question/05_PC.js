@@ -15,6 +15,6 @@ while (attempt < maxAttempts) {
     }
 
     if (attempt === maxAttempts) {
-        alert("🚫 Account locked ! Too many failed attempts.");
+        alert("🚫 Account locked! Too many failed attempts.");
     }
 }
