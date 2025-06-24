@@ -66,7 +66,6 @@ Types of Function:
 Types of Parameters:
 1. Default Parameters
 2. Reset Parameters
-3. Use Parameter in return
 */
 
 // Higher Order Function
