@@ -6,44 +6,42 @@ function welcome() {
 
 welcome(); // Just calls and prints
 
-
 // Page loader
 function showMessage() {
   console.log("Code Loaded Successfully!");
 }
-
 showMessage();
 
 // Create a Function to Print a Welcome Message
-function showWelcome(){
-    console.log("Welcome to My Website!");    
+function showWelcome() {
+  console.log("Welcome to My Website!");
 }
-showWelcome()
+showWelcome();
 
 // Create a Function to Show an Alert Box
-function showAlert(){
-    // alert("This is an alert");
+function showAlert() {
+  // alert("This is an alert");
 }
-showAlert()
+showAlert();
 
 // Create a Function to Print Developer Info
-function showDeveloper(){
-    let name = "Guru";
-    let role = "JavaScript Developer";
+function showDeveloper() {
+  let name = "Guru";
+  let role = "JavaScript Developer";
 
-    console.log(`Name is ${name} & Role is ${role}`);
+  console.log(`Name is ${name} & Role is ${role}`);
 }
-showDeveloper()
+showDeveloper();
 
 // Create a Function to Clear the Console
-function clearScreen(){
-    console.clear();
+function clearScreen() {
+  console.clear();
 }
-clearScreen()
+clearScreen();
 
 // Create a Function to Print Current Year
-function printYear(){
-    let year = new Date().getFullYear();
-    console.log("Current Year:", year);
+function printYear() {
+  let year = new Date().getFullYear();
+  console.log("Current Year:", year);
 }
-printYear()
+printYear();
