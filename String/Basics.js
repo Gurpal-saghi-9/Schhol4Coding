@@ -14,11 +14,33 @@ let name = 'Ali';
 let empty = "";
 let sentence = `My name is ${name}`; // Template Literals
 
-// creating string 
+
+let alpha = 'Guru' + 123;
+
+console.log(alpha);
+
+let beta = alpha + 'halwa'
+console.log(beta);
+
+let fname ="Gurpal"
+let lname = "singh"
+
+console.log(`Your name is ${fname + " " + lname}`);
+
+
+// creating string using constructor
 let str = new String("Gurpal Singh")
 
 // Sring Properties
 str.length
+
+console.log(str.length);
+
+console.log(str[0]);
+console.log(str[1]);
+// console.log(str[-2]);
+
+
 
 /* 
 Methods:
@@ -34,3 +56,12 @@ str.replaceAll(old, new)
 str.slice(start, end)
 str.split()
 */
+
+
+// String are immutable
+str = 'hello guru';
+
+console.log(str[1]);
+
+str[6] = 'p'// string are not changeable
+console.log(str);
