@@ -13,6 +13,9 @@ let car = {
     speed: 120,
     start: function() {
         console.log("The car has started.");    
+    },
+    stop: () => {
+        console.log("The car has stopped.");
     }
 }
 
