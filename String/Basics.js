@@ -59,9 +59,20 @@ str.split()
 
 
 // String are immutable
-str = 'hello guru';
+str = 'Gurpal Singh Saghi';
 
 console.log(str[1]);
 
 str[6] = 'p'// string are not changeable
 console.log(str);
+
+for( let ch of str) {
+    console.log(ch);
+}
+
+console.log(" ");
+
+
+for(let idx in str) {
+    console.log(idx, str[idx]);
+}

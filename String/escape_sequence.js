@@ -5,7 +5,8 @@ console.log(str);
 
 // str1 = "Its true "good""; // we cant right like this
 
-let str2 = "Its true \"good\""; 
+let str1 = "It's true \"good\"";
+console.log(str1) 
 
 // for tab
 let greet  = "Hello, \n \t How are you?";
