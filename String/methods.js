@@ -17,6 +17,9 @@ console.log(str2.includes("boy"));
 console.log(str2.indexOf("a"));
 console.log(str2.charAt(3))
 console.log(str2.replace("boy", "guru"));
+console.log(str2);
+ 
+
 
 let str3 = "This is am are good is it";
 console.log(str3.replaceAll("is", "alpha"));
