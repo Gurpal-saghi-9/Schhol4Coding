@@ -6,3 +6,9 @@ const users = [
 {name: "Charlie", role: "admin"},
 ]
 */
+
+const users = [
+  { name: "Alice", role: "admin" },
+  { name: "Bob", role: "user" },
+  { name: "Charlie", role: "admin" },
+];
