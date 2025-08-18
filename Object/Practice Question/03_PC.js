@@ -18,4 +18,4 @@ const exampleObject = {
   hobbies: ["reading", "adventure"]
 };
 
-console.log(countProperties(exampleObject)); // Output: 3
+console.log(countProperties(exampleObject)); 
