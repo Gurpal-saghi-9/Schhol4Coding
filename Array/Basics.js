@@ -17,7 +17,33 @@ let arr = new Array("spiderman", "ironman", "thor")
 
 // Array constructor is mostly used when we want to create an empty array with the given length
 
-// Indexing
+// Indexing strat from 0 and also array is a mutable
+console.log(arr[0]);
+arr[0] = 'shaktiman'
+console.log(arr);
+
+
+// typeof
+console.log(typeof arr);
+
+// length
+console.log(arr.length);
+
+
+// array using for loop
+let array =  [1, 3, 5, 8, 100, 99];
+
+for (let i = 0; i < array.length; i++){
+    console.log(array[i] * 2);
+}
+
+for (let val of array){
+    console.log(val);
+}
+
+for(let elem in array){
+    console.log(elem);
+}
 
 /*
 Array Methods:
