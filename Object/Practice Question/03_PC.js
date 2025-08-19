@@ -2,20 +2,14 @@
 3. Write a function that takes object and returns the number of properties in an object.
 */
 
-function countProperties(obj) {
-  if (typeof obj !== "object" || obj === null) {
-    return 0; // Return 0 for non-object types or null
-  }
-
-  return Object.keys(obj).length; // Count the number of keys in the object
+obj = {
+  name : "Guru",
+  age : 21,
+  city : "Sirsa",
+  gender : "Male",
+  isMarried : "No"
 }
 
-// Example usage:
-const exampleObject = {
-  name: "Alice",
-  age: 30,
-  city: "Wonderland",
-  hobbies: ["reading", "adventure"]
-};
+let obj_length = Object.keys(obj).length;
 
-console.log(countProperties(exampleObject)); 
+console.log(obj_length)
