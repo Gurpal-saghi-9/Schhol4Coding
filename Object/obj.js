@@ -47,3 +47,33 @@ let car = {
 
 
 // ----------------------- ------------------------
+
+let obj = {
+    name : "Alpha",
+    age : 24
+}
+
+// keys = Object.keys(obj)
+// console.log(keys);
+
+// values = Object.values(obj)
+// console.log(values)
+
+// map of object (for of is not woking on object)
+// for in working on adress
+// for(let test in obj){
+//     console.log(test)
+// }
+// watch value using keys in object
+// for(let test in obj){
+//     console.log(obj[test])
+// }
+
+// entries = Object.entries(obj)
+// console.log(entries)
+
+// let assign = Object.assign(obj)
+// console.log(assign)
+// assign["class"] = "BCA"
+// console.log(assign)
+
