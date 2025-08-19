@@ -77,3 +77,27 @@ let obj = {
 // assign["class"] = "BCA"
 // console.log(assign)
 
+// Object.freeze(obj)
+// console.log(obj)
+// After freez() its working well but it can't be updateble and also we can't be delete any property and also can't be modifyable 
+// obj["class"] = "B.Tech"
+// console.log(obj)
+// obj["name"] = "Guru"
+// console.log(obj["name"])
+// delete obj.age
+// console.log(obj)
+
+
+// Object.seal(obj)
+// console.log(obj)
+/// if we can seal any object then we can't add or delete but can be  modifyable
+// obj["city"] = "sirsa"
+// console.log(obj)
+// obj["age"] = 26
+// console.log(obj)
+// delete age
+// console.log(obj)
+
+// ObjName.hasOwnProperty(key) : give answer in yes or no means check is property avail in or not
+console.log(obj.hasOwnProperty("age"))
+console.log(obj.hasOwnProperty("city"))
