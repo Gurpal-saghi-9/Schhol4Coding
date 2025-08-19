@@ -17,7 +17,8 @@ for (const key in person) {
 }
 
 // b) Add a new property called email
-person.email = "Gurusaghi324@gmail.com";
+person["email"] = "Gurusaghi324@gmail.com";
+console.log(person)
 
 // c) Delete "city" property
 delete person.city;
