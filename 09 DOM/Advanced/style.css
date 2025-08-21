@@ -1,0 +1,19 @@
+/* h1{
+    visibility: hidden;
+} */
+
+
+div{
+    background: red;
+    padding: 20px;
+}
+
+p{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blue;
+}
