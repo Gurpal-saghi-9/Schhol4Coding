@@ -111,7 +111,9 @@
 
 //// Work on Attribut
 
+let div = document.querySelector('.box')
 
+console.log(div.getAttribute())
 
 // ------------------- Manipulating CSS -------------------
 
