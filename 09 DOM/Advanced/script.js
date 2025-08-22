@@ -25,7 +25,7 @@
 
 
 // ------------------- Manipulating HTML -------------------
-let h1 = document.querySelector('h1')
+// let h1 = document.querySelector('h1')
 // console.log(h1.tagName);
 // console.log(h1.nodeName);
 
@@ -56,27 +56,62 @@ let h1 = document.querySelector('h1')
 
 
 // Inserting Elements
-let div = document.querySelector('div');
+// let div = document.querySelector('div');
 
 // Append at the end
-let elem1 = document.createElement('p')
-elem1.innerHTML = "Parah 4 using append"
-div.append(elem1)
+// let elem1 = document.createElement('p')
+// elem1.innerHTML = "Parah 4 using append"
+// div.append(elem1)
 
 // Append at the front
-let elem2 = document.createElement('p')
-elem2.innerHTML = "Parah 0 using Prepend"
-div.prepend(elem2) 
+// let elem2 = document.createElement('p')
+// elem2.innerHTML = "Parah 0 using Prepend"
+// div.prepend(elem2) 
 
 // append outside the elemeent
-let elem3 = document.createElement('p')
-elem3.innerHTML = "Parah 5 outside te div using after"
-div.after(elem3)
+// let elem3 = document.createElement('p')
+// elem3.innerHTML = "Parah 5 outside te div using after"
+// div.after(elem3)
 
 // append outside the elemeent
-let elem4 = document.createElement('p')
-elem4.innerHTML = "Parah -1 outside te div above using before"
-div.before(elem4)
+// let elem4 = document.createElement('p')
+// elem4.innerHTML = "Parah -1 outside te div above using before"
+// div.before(elem4)
+
+// append on a specfic place
+// let elem5 = document.createElement('p')
+// elem5.innerHTML = "Parah append at a specific position"
+// div.insertAdjacentElement("beforeend", elem5)
+
+// let p = div.children[4]
+// p.remove()
+
+// // Parent Node
+// let parah2 = document.querySelector("#parah2")
+// parah2.style.backgroundColor = "Green"
+
+// let elem6 = document.createElement('p')
+// elem6.innerHTML = "Append using parent node . append child"
+
+// let parentNode = parah2.parentNode
+// parentNode.append(elem6)
+
+// let newElem = document.createElement('div')
+// newElem.innerText = "Hello"
+
+// parentNode.replaceChild(newElem, parah2)
+// parentNode.removeChild(elem6)
+
+
+// let elem = document.createElement('p')
+// elem.innerText = "New Paragraph"
+
+// let lastParah = div.children[2]
+// div.insertBefore(elem, lastParah)
+
+//// Work on Attribut
+
+
 
 // ------------------- Manipulating CSS -------------------
 
