@@ -109,11 +109,30 @@
 // let lastParah = div.children[2]
 // div.insertBefore(elem, lastParah)
 
+
 //// Work on Attribut
-
+//for get attribute
 let div = document.querySelector('.box')
+// console.log(div.getAttribute())
+// console.log(div.attributes);
+// console.log(div.attributes.class.value);
+// console.log(div.getAttribute('class'));
+// console.log(div.attributes.class.nodeValue);
 
-console.log(div.getAttribute())
+
+// for set attribute
+// div.setAttribute('class', 'random')
+// console.log(div.attributes.class.value); // give the class random with removing the last existing class
+
+// if we don't wan't to replace the last attribute value but concat it with new value then we use give 
+let classValue = div.getAttribute('class');
+console.log(classValue);
+
+div.setAttribute('class', `${classValue} random`)
+console.log(div.getAttribute('class'));
+
+
+
 
 // ------------------- Manipulating CSS -------------------
 
